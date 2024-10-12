@@ -1,0 +1,38 @@
+/* CSS for JavaFX Chat Application */
+
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+.label {
+	-fx-text-align: center;
+	-fx-font-size: 20px;
+}
+
+.text-area {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b3b3b3;
+    -fx-border-radius: 5;
+    -fx-text-fill: #333;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #e6e6e6;
+    -fx-border-radius: 5;
+    -fx-border-color: #b3b3b3;
+	-fx-pref-height: 30px;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+	-fx-pref-height: 30px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
